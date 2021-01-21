@@ -32,7 +32,7 @@ function setup() {
 
 
 function draw() {
-  rectMode(CENTER);
+ // imageMode(CENTER);
   background(0);
   Engine.update(engine); 
 
@@ -45,7 +45,7 @@ function draw() {
   box3.display();
  
 
- // keyPressed();
+ //keyPressed();
 }
 
 function keyPressed(){

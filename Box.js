@@ -4,7 +4,7 @@ class Box  {
             'isStatic':true,
             'restitution':0.1,
            'friction':5,
-            'density':10
+            'density':1.2
 
           }
           this.width = width;
@@ -22,8 +22,8 @@ display(){
     translate(pos.x,pos.y) ;
     rotate(angle); 
     rectMode(CENTER);
-    strokeWeight(4);
-    stroke("black")
+   // strokeWeight(4);
+    //stroke(0)
     fill("red") ;
     rect(0,0,this.width,this.height);
     pop(); 
